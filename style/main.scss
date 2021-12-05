@@ -1,0 +1,22 @@
+
+@import './variables';
+@import './header';
+@import './function';
+h1{
+    color:$primaryColor;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+}
+
+
+h2{
+    @extend h1;
+    @include displayCenter(white)
+}
+
+body{
+    @include displayCenter();
+    height: 100vh;
+    text-align: center;
+}

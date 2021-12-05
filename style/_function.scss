@@ -1,0 +1,8 @@
+
+
+@mixin displayCenter($background:rgb(61, 122, 117)) {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: $background;
+}

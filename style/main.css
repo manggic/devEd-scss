@@ -1,0 +1,53 @@
+/* No CSS */
+header h3 {
+  color: blue;
+}
+
+header h3:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+header h3::after {
+  content: 'hisss';
+}
+
+header .h4 {
+  color: blue;
+}
+
+h1, h2 {
+  color: black;
+  background-color: aqua;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 60px;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3d7a75;
+  height: 100vh;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

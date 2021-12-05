@@ -1,0 +1,15 @@
+header{
+    h3{
+        color: $blackColor;
+        &:hover{
+            cursor: pointer;
+            color: aqua;
+        }
+        &::after{
+            content: 'hisss';
+        }
+    }
+    .h4{
+        color:$blackColor;
+    }
+}
